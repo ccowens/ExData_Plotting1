@@ -5,7 +5,7 @@
 read_in <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", quote = "\"",
                       dec = ".", fill = TRUE, comment.char = "", stringsAsFactors = FALSE, na.string=c("?"))
 
-# iust the use the string values under Date to get the rows that are required
+# just the use the string values under Date to get the rows that are required
 project_data <- subset(read_in, Date %in% c("1/2/2007","2/2/2007"))
 rm(read_in)
 
