@@ -1,4 +1,14 @@
-## Introduction
+## My Introduction
+
+The files in the repository have been produced according to the orginal README instructions below. The
+exception is that I've also included the required subsetted version of the data in the repository itself
+with the script to produce it:
+
+* project_data.csv
+
+* subset_data.R
+
+## [Original] Introduction
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
